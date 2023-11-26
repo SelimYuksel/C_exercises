@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int find_smallest_int(const int array[], size_t length) {
+int find_smallest_int(int array[], size_t length) {
 	
 	if(length == 0) {        //If the length of the array is zero, stop the program
 		return 0;
